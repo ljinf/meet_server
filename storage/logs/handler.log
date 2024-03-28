@@ -1,0 +1,216 @@
+2024-03-26 23:23:37.217200000	[34minfo[0m	D:/myfile/idea-project/meet_server/cmd/service/account/main.go:18	handler start	{"host": "http://127.0.0.1:9000"}
+main.main
+	D:/myfile/idea-project/meet_server/cmd/service/account/main.go:18
+runtime.main
+	D:/go/src/runtime/proc.go:255
+2024-03-26 23:24:24.306200000	[34minfo[0m	D:/myfile/idea-project/meet_server/cmd/service/account/main.go:18	handler start	{"host": "127.0.0.1:9000"}
+main.main
+	D:/myfile/idea-project/meet_server/cmd/service/account/main.go:18
+runtime.main
+	D:/go/src/runtime/proc.go:255
+2024-03-28 00:07:11.026400000	[34minfo[0m	D:/myfile/idea-project/meet_server/cmd/service/account/main.go:22	handler start	{"host": "127.0.0.1:52914"}
+main.main
+	D:/myfile/idea-project/meet_server/cmd/service/account/main.go:22
+runtime.main
+	D:/go1.20.7/go/src/runtime/proc.go:250
+2024-03-28 00:07:32.080400000	[31merror[0m	D:/myfile/idea-project/meet_server/cmd/service/account/main.go:44	consul 注册失败 Put "http://192.68.31.37:8500/v1/agent/service/register": dial tcp 192.68.31.37:8500: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+main.main
+	D:/myfile/idea-project/meet_server/cmd/service/account/main.go:44
+runtime.main
+	D:/go1.20.7/go/src/runtime/proc.go:250
+2024-03-28 00:08:08.736400000	[34minfo[0m	D:/myfile/idea-project/meet_server/cmd/service/account/main.go:22	handler start	{"host": "127.0.0.1:52979"}
+main.main
+	D:/myfile/idea-project/meet_server/cmd/service/account/main.go:22
+runtime.main
+	D:/go1.20.7/go/src/runtime/proc.go:250
+2024-03-28 00:12:27.086400000	[34minfo[0m	D:/myfile/idea-project/meet_server/cmd/service/account/main.go:22	handler start	{"host": "127.0.0.1:53165"}
+main.main
+	D:/myfile/idea-project/meet_server/cmd/service/account/main.go:22
+runtime.main
+	D:/go1.20.7/go/src/runtime/proc.go:250
+2024-03-28 00:15:14.490400000	[34minfo[0m	D:/myfile/idea-project/meet_server/cmd/service/account/main.go:22	handler start	{"host": "0.0.0.0:53220"}
+main.main
+	D:/myfile/idea-project/meet_server/cmd/service/account/main.go:22
+runtime.main
+	D:/go1.20.7/go/src/runtime/proc.go:250
+2024-03-28 00:23:15.799400000	[34minfo[0m	D:/myfile/idea-project/meet_server/cmd/service/account/main.go:22	handler start	{"host": "127.0.0.1:53448"}
+main.main
+	D:/myfile/idea-project/meet_server/cmd/service/account/main.go:22
+runtime.main
+	D:/go1.20.7/go/src/runtime/proc.go:250
+2024-03-28 00:26:23.941400000	[34minfo[0m	D:/myfile/idea-project/meet_server/cmd/service/account/main.go:22	handler start	{"host": "127.0.0.1:53580"}
+main.main
+	D:/myfile/idea-project/meet_server/cmd/service/account/main.go:22
+runtime.main
+	D:/go1.20.7/go/src/runtime/proc.go:250
+2024-03-28 00:29:08.745400000	[34minfo[0m	D:/myfile/idea-project/meet_server/cmd/service/account/main.go:22	handler start	{"host": "127.0.0.1:53660"}
+main.main
+	D:/myfile/idea-project/meet_server/cmd/service/account/main.go:22
+runtime.main
+	D:/go1.20.7/go/src/runtime/proc.go:250
+2024-03-28 00:35:53.887400000	[34minfo[0m	D:/myfile/idea-project/meet_server/cmd/service/account/main.go:23	handler start	{"host": "127.0.0.1:53986"}
+main.main
+	D:/myfile/idea-project/meet_server/cmd/service/account/main.go:23
+runtime.main
+	D:/go1.20.7/go/src/runtime/proc.go:250
+2024-03-28 23:15:07.050800000	[34minfo[0m	D:/myfile/idea-project/meet_server/cmd/service/account/main.go:22	handler start	{"host": "127.0.0.1:49527"}
+main.main
+	D:/myfile/idea-project/meet_server/cmd/service/account/main.go:22
+runtime.main
+	D:/go1.20.7/go/src/runtime/proc.go:250
+2024-03-28 23:31:38.182800000	[34minfo[0m	D:/myfile/idea-project/meet_server/cmd/web/account/main.go:23	handler start	{"host": "0.0.0.0:49899"}
+main.main
+	D:/myfile/idea-project/meet_server/cmd/web/account/main.go:23
+runtime.main
+	D:/go1.20.7/go/src/runtime/proc.go:250
+2024-03-28 23:31:38.202800000	[31merror[0m	D:/myfile/idea-project/meet_server/cmd/web/account/main.go:42	consul 注册失败 Unexpected response code: 400 (Invalid service address)
+main.main
+	D:/myfile/idea-project/meet_server/cmd/web/account/main.go:42
+runtime.main
+	D:/go1.20.7/go/src/runtime/proc.go:250
+2024-03-28 23:33:20.639800000	[34minfo[0m	D:/myfile/idea-project/meet_server/cmd/web/account/main.go:23	handler start	{"host": "0.0.0.0:49916"}
+main.main
+	D:/myfile/idea-project/meet_server/cmd/web/account/main.go:23
+runtime.main
+	D:/go1.20.7/go/src/runtime/proc.go:250
+2024-03-28 23:33:20.656800000	[31merror[0m	D:/myfile/idea-project/meet_server/cmd/web/account/main.go:42	consul 注册失败 Unexpected response code: 400 (Invalid service address)
+main.main
+	D:/myfile/idea-project/meet_server/cmd/web/account/main.go:42
+runtime.main
+	D:/go1.20.7/go/src/runtime/proc.go:250
+2024-03-28 23:34:39.414800000	[34minfo[0m	D:/myfile/idea-project/meet_server/cmd/web/account/main.go:23	handler start	{"host": "127.0.0.1:49942"}
+main.main
+	D:/myfile/idea-project/meet_server/cmd/web/account/main.go:23
+runtime.main
+	D:/go1.20.7/go/src/runtime/proc.go:250
+2024-03-28 23:36:05.257800000	[34minfo[0m	D:/myfile/idea-project/meet_server/cmd/web/account/main.go:23	handler start	{"host": "127.0.0.1:50033"}
+main.main
+	D:/myfile/idea-project/meet_server/cmd/web/account/main.go:23
+runtime.main
+	D:/go1.20.7/go/src/runtime/proc.go:250
+2024-03-28 23:36:15.498800000	[34minfo[0m	D:/myfile/idea-project/meet_server/cmd/service/account/main.go:22	handler start	{"host": "127.0.0.1:50048"}
+main.main
+	D:/myfile/idea-project/meet_server/cmd/service/account/main.go:22
+runtime.main
+	D:/go1.20.7/go/src/runtime/proc.go:250
+2024-03-28 23:43:28.823800000	[34minfo[0m	D:/myfile/idea-project/meet_server/cmd/service/account/main.go:22	handler start	{"host": "127.0.0.1:50639"}
+main.main
+	D:/myfile/idea-project/meet_server/cmd/service/account/main.go:22
+runtime.main
+	D:/go1.20.7/go/src/runtime/proc.go:250
+2024-03-28 23:54:43.585800000	[34minfo[0m	D:/myfile/idea-project/meet_server/cmd/service/account/main.go:22	handler start	{"host": "127.0.0.1:51097"}
+main.main
+	D:/myfile/idea-project/meet_server/cmd/service/account/main.go:22
+runtime.main
+	D:/go1.20.7/go/src/runtime/proc.go:250
+2024-03-28 23:59:01.107800000	[34minfo[0m	D:/myfile/idea-project/meet_server/cmd/web/account/main.go:23	handler start	{"host": "127.0.0.1:51266"}
+main.main
+	D:/myfile/idea-project/meet_server/cmd/web/account/main.go:23
+runtime.main
+	D:/go1.20.7/go/src/runtime/proc.go:250
+2024-03-29 00:01:28.572800000	[34minfo[0m	D:/myfile/idea-project/meet_server/cmd/web/account/main.go:23	handler start	{"host": "127.0.0.1:51399"}
+main.main
+	D:/myfile/idea-project/meet_server/cmd/web/account/main.go:23
+runtime.main
+	D:/go1.20.7/go/src/runtime/proc.go:250
+2024-03-29 00:01:39.297800000	[31merror[0m	D:/myfile/idea-project/meet_server/internal/web/handler/account.go:39	Key: 'RegisterRequest.Password' Error:Field validation for 'Password' failed on the 'required' tag
+github.com/ljinf/meet_server/internal/web/handler.(*accountHandler).CreateAccount
+	D:/myfile/idea-project/meet_server/internal/web/handler/account.go:39
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/Administrator/go/pkg/mod/github.com/gin-gonic/gin@v1.8.0/context.go:173
+github.com/ljinf/meet_server/internal/middleware.CORSMiddleware.func1
+	D:/myfile/idea-project/meet_server/internal/middleware/cors.go:21
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/Administrator/go/pkg/mod/github.com/gin-gonic/gin@v1.8.0/context.go:173
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	C:/Users/Administrator/go/pkg/mod/github.com/gin-gonic/gin@v1.8.0/recovery.go:101
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/Administrator/go/pkg/mod/github.com/gin-gonic/gin@v1.8.0/context.go:173
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	C:/Users/Administrator/go/pkg/mod/github.com/gin-gonic/gin@v1.8.0/logger.go:240
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/Administrator/go/pkg/mod/github.com/gin-gonic/gin@v1.8.0/context.go:173
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	C:/Users/Administrator/go/pkg/mod/github.com/gin-gonic/gin@v1.8.0/gin.go:613
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	C:/Users/Administrator/go/pkg/mod/github.com/gin-gonic/gin@v1.8.0/gin.go:569
+net/http.serverHandler.ServeHTTP
+	D:/go1.20.7/go/src/net/http/server.go:2936
+net/http.(*conn).serve
+	D:/go1.20.7/go/src/net/http/server.go:1995
+2024-03-29 00:07:35.974800000	[31merror[0m	D:/myfile/idea-project/meet_server/internal/web/handler/account.go:55	rpc error: code = Unavailable desc = last connection error: connection error: desc = "transport: Error while dialing: dial tcp: address consul://127.0.0.1:8500/account_srv: too many colons in address"	{"accountSrv.CreateAccount register info": {"ID":0,"CreatedAt":"0001-01-01T00:00:00Z","UpdatedAt":"0001-01-01T00:00:00Z","DeletedAt":null,"user_id":0,"phone":"12345678912","email":"","password":"123456","salt":""}}
+github.com/ljinf/meet_server/internal/web/handler.(*accountHandler).CreateAccount
+	D:/myfile/idea-project/meet_server/internal/web/handler/account.go:55
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/Administrator/go/pkg/mod/github.com/gin-gonic/gin@v1.8.0/context.go:173
+github.com/ljinf/meet_server/internal/middleware.CORSMiddleware.func1
+	D:/myfile/idea-project/meet_server/internal/middleware/cors.go:21
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/Administrator/go/pkg/mod/github.com/gin-gonic/gin@v1.8.0/context.go:173
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	C:/Users/Administrator/go/pkg/mod/github.com/gin-gonic/gin@v1.8.0/recovery.go:101
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/Administrator/go/pkg/mod/github.com/gin-gonic/gin@v1.8.0/context.go:173
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	C:/Users/Administrator/go/pkg/mod/github.com/gin-gonic/gin@v1.8.0/logger.go:240
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/Administrator/go/pkg/mod/github.com/gin-gonic/gin@v1.8.0/context.go:173
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	C:/Users/Administrator/go/pkg/mod/github.com/gin-gonic/gin@v1.8.0/gin.go:613
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	C:/Users/Administrator/go/pkg/mod/github.com/gin-gonic/gin@v1.8.0/gin.go:569
+net/http.serverHandler.ServeHTTP
+	D:/go1.20.7/go/src/net/http/server.go:2936
+net/http.(*conn).serve
+	D:/go1.20.7/go/src/net/http/server.go:1995
+2024-03-29 00:11:01.742800000	[34minfo[0m	D:/myfile/idea-project/meet_server/cmd/web/account/main.go:23	handler start	{"host": "127.0.0.1:52379"}
+main.main
+	D:/myfile/idea-project/meet_server/cmd/web/account/main.go:23
+runtime.main
+	D:/go1.20.7/go/src/runtime/proc.go:250
+2024-03-29 00:11:11.992800000	[31merror[0m	D:/myfile/idea-project/meet_server/internal/service/handler/account.go:45	Error 1146 (42S02): Table 'meet_server.register' doesn't exist	{"phone": "12345678912", "email": ""}
+github.com/ljinf/meet_server/internal/service/handler.(*AccountServerHandler).CreateAccount
+	D:/myfile/idea-project/meet_server/internal/service/handler/account.go:45
+github.com/ljinf/meet_server/pkg/proto/account._AccountService_CreateAccount_Handler
+	D:/myfile/idea-project/meet_server/pkg/proto/account/account.pb.go:992
+google.golang.org/grpc.(*Server).processUnaryRPC
+	C:/Users/Administrator/go/pkg/mod/google.golang.org/grpc@v1.62.1/server.go:1386
+google.golang.org/grpc.(*Server).handleStream
+	C:/Users/Administrator/go/pkg/mod/google.golang.org/grpc@v1.62.1/server.go:1797
+google.golang.org/grpc.(*Server).serveStreams.func2.1
+	C:/Users/Administrator/go/pkg/mod/google.golang.org/grpc@v1.62.1/server.go:1027
+2024-03-29 00:11:11.993800000	[31merror[0m	D:/myfile/idea-project/meet_server/internal/web/handler/account.go:55	rpc error: code = Unknown desc = 创建用户失败	{"accountSrv.CreateAccount register info": {"ID":0,"CreatedAt":"0001-01-01T00:00:00Z","UpdatedAt":"0001-01-01T00:00:00Z","DeletedAt":null,"user_id":0,"phone":"12345678912","email":"","password":"123456","salt":""}}
+github.com/ljinf/meet_server/internal/web/handler.(*accountHandler).CreateAccount
+	D:/myfile/idea-project/meet_server/internal/web/handler/account.go:55
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/Administrator/go/pkg/mod/github.com/gin-gonic/gin@v1.8.0/context.go:173
+github.com/ljinf/meet_server/internal/middleware.CORSMiddleware.func1
+	D:/myfile/idea-project/meet_server/internal/middleware/cors.go:21
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/Administrator/go/pkg/mod/github.com/gin-gonic/gin@v1.8.0/context.go:173
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	C:/Users/Administrator/go/pkg/mod/github.com/gin-gonic/gin@v1.8.0/recovery.go:101
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/Administrator/go/pkg/mod/github.com/gin-gonic/gin@v1.8.0/context.go:173
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	C:/Users/Administrator/go/pkg/mod/github.com/gin-gonic/gin@v1.8.0/logger.go:240
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/Administrator/go/pkg/mod/github.com/gin-gonic/gin@v1.8.0/context.go:173
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	C:/Users/Administrator/go/pkg/mod/github.com/gin-gonic/gin@v1.8.0/gin.go:613
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	C:/Users/Administrator/go/pkg/mod/github.com/gin-gonic/gin@v1.8.0/gin.go:569
+net/http.serverHandler.ServeHTTP
+	D:/go1.20.7/go/src/net/http/server.go:2936
+net/http.(*conn).serve
+	D:/go1.20.7/go/src/net/http/server.go:1995
+2024-03-29 00:15:33.797800000	[34minfo[0m	D:/myfile/idea-project/meet_server/cmd/service/account/main.go:22	handler start	{"host": "127.0.0.1:52738"}
+main.main
+	D:/myfile/idea-project/meet_server/cmd/service/account/main.go:22
+runtime.main
+	D:/go1.20.7/go/src/runtime/proc.go:250
+2024-03-29 00:15:46.369800000	[34minfo[0m	D:/myfile/idea-project/meet_server/cmd/web/account/main.go:23	handler start	{"host": "127.0.0.1:52754"}
+main.main
+	D:/myfile/idea-project/meet_server/cmd/web/account/main.go:23
+runtime.main
+	D:/go1.20.7/go/src/runtime/proc.go:250

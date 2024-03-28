@@ -1,0 +1,69 @@
+syntax = "proto3";
+import "google/protobuf/empty.proto";
+option go_package = "./account";
+
+service AccountService {
+  rpc CreateAccount(CreateAccountReq)returns(CreateAccountRes);
+  rpc GetAccountInfo(AccountInfoReq)returns(AccountInfoRes);
+  rpc UpdateAccountInfo(UpdateAccountInfoReq)returns(google.protobuf.Empty);
+  rpc GetUserInfo(UserInfoReq)returns(UserInfoRes);
+  rpc UpdateUserInfo(UpdateUserInfoReq)returns(UpdateUserInfoRes);
+}
+
+message CreateAccountReq {
+  string phone = 1;
+  string email = 2;
+  string password = 3;
+
+}
+
+message CreateAccountRes {
+  int64 userId = 1;
+  string phone = 2;
+  string email = 3;
+}
+
+message AccountInfoReq {
+  string phone = 2;
+  string email = 3;
+}
+
+message AccountInfoRes {
+  int64 userId = 1;
+  string phone = 2;
+  string email = 3;
+  string password = 4;
+  string salt = 5;
+}
+
+message UpdateAccountInfoReq{
+  int64 userId = 1;
+  string phone = 2;
+  string email = 3;
+  string password = 4;
+}
+
+message UserInfoReq {
+  int64 userId = 1;
+}
+
+message UserInfoRes {
+  int64 userId = 1;
+  string NickName = 2;
+  string avatar = 3;
+  int32 gender = 4;
+  bool online = 5;
+}
+
+message UpdateUserInfoReq{
+  int64 userId = 1;
+  string NickName = 2;
+  string avatar = 3;
+}
+
+message UpdateUserInfoRes{
+  int64 userId = 1;
+  string NickName = 2;
+  string avatar = 3;
+  int32 gender = 4;
+}

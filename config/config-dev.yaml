@@ -1,0 +1,47 @@
+env: local
+
+mysql_db:
+  host: 127.0.0.1
+  port: 3306
+  db_name: "meet_server"
+  username: "root"
+  password: "123456"
+
+redis:
+  host: 127.0.0.1
+  port: 6379
+
+jwt_config:
+  key: "dhowffj49dujg?"
+
+consul_config:
+  host: 127.0.0.1
+  port: 8500
+
+jaeger_config:
+  host: 127.0.0.1
+  port: 6831
+
+
+log_config:
+  log_level: debug
+  encoding: console           # json or console
+  log_file_name: "./storage/logs/handler.log"
+  max_backups: 30
+  max_age: 7
+  max_size: 1024
+  compress: true
+
+
+account_srv:
+  host: 127.0.0.1
+  service_name: account_srv
+  tags:
+    - account grpc server
+
+account_web:
+  host: 127.0.0.1
+  service_name: account_web
+  depend_on: account_srv
+  tags:
+    - account web server

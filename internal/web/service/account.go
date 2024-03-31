@@ -53,11 +53,45 @@ func (srv *accountService) CreateAccount(info *model.Register) error {
 
 func (srv *accountService) GetAccountInfo(info *model.Register) (*model.Register, error) {
 
-	return nil, nil
+	rpcClient, err := srv.getRpcClient()
+	if err != nil {
+		return nil, err
+	}
+
+	accountInfo, err := rpcClient.GetAccountInfo(srv.ctx, &pb.AccountInfoReq{
+		Phone: info.Phone,
+		Email: info.Email,
+	})
+	if err != nil {
+		return nil, err
+	}
+
+	res := model.Register{
+		UserId:   accountInfo.UserId,
+		Phone:    accountInfo.Phone,
+		Email:    accountInfo.Email,
+		Password: accountInfo.Password,
+		Salt:     accountInfo.Salt,
+	}
+
+	return &res, nil
 }
 
 func (srv *accountService) UpdateAccountInfo(info *model.Register) error {
-	return nil
+
+	rpcClient, err := srv.getRpcClient()
+	if err != nil {
+		return err
+	}
+
+	_, err = rpcClient.UpdateAccountInfo(srv.ctx, &pb.UpdateAccountInfoReq{
+		UserId:   info.UserId,
+		Phone:    info.Phone,
+		Email:    info.Email,
+		Password: info.Password,
+	})
+
+	return err
 }
 
 func (srv *accountService) GetUserInfo(userId int64) (*model.UserInfo, error) {
@@ -95,6 +129,31 @@ func (srv *accountService) GetUserInfo(userId int64) (*model.UserInfo, error) {
 }
 
 func (srv *accountService) UpdateUserInfo(user *model.UserInfo) error {
+	rpcClient, err := srv.getRpcClient()
+	if err != nil {
+		return err
+	}
+
+	result, err := rpcClient.UpdateUserInfo(srv.ctx, &pb.UpdateUserInfoReq{
+		UserId:   user.UserId,
+		Avatar:   user.Avatar,
+		NickName: user.NickName,
+	})
+	if err != nil {
+		return err
+	}
+
+	userInfo := &model.UserInfo{
+		UserId:   result.UserId,
+		NickName: result.NickName,
+		Avatar:   result.Avatar,
+		Gender:   int(result.Gender),
+	}
+
+	if err = srv.cache.SetUserInfoCache(userInfo); err != nil {
+		srv.logger.Error(fmt.Sprintf("SetUserInfoCache %+v", err), zap.Any("userInfo", user))
+	}
+
 	return nil
 }
 
